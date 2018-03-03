@@ -15,6 +15,9 @@ namespace SammysAuto.Data
         {
         }
 
+        // adding/updating db with new models
+        public DbSet<ServiceType> ServiceTypes { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);

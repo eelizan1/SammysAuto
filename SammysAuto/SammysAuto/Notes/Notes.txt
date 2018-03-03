@@ -1,0 +1,16 @@
+﻿Adding/Updating a new Model to the DB 
+
+1. Create model 
+2. Add to ApplicationDbContext 
+
+        public DbSet<ServiceType> ServiceTypes { get; set; }
+
+3. Add Migration in Nuget Package manager console 
+
+		"add-migration AddServiceTypeToDB"
+
+	This will create a new migration class with the model fields 
+
+4. Update the database 
+
+		"update-database"

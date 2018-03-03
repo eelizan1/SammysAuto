@@ -1,0 +1,12 @@
+C:\Users\ere0101\Documents\ASP.NET\SammysAuto\SammysAuto\SammysAuto\bin\Debug\netcoreapp2.0\SammysAuto.deps.json
+C:\Users\ere0101\Documents\ASP.NET\SammysAuto\SammysAuto\SammysAuto\bin\Debug\netcoreapp2.0\SammysAuto.runtimeconfig.json
+C:\Users\ere0101\Documents\ASP.NET\SammysAuto\SammysAuto\SammysAuto\bin\Debug\netcoreapp2.0\SammysAuto.runtimeconfig.dev.json
+C:\Users\ere0101\Documents\ASP.NET\SammysAuto\SammysAuto\SammysAuto\bin\Debug\netcoreapp2.0\SammysAuto.dll
+C:\Users\ere0101\Documents\ASP.NET\SammysAuto\SammysAuto\SammysAuto\bin\Debug\netcoreapp2.0\SammysAuto.pdb
+C:\Users\ere0101\Documents\ASP.NET\SammysAuto\SammysAuto\SammysAuto\obj\Debug\netcoreapp2.0\SammysAuto.csprojResolveAssemblyReference.cache
+C:\Users\ere0101\Documents\ASP.NET\SammysAuto\SammysAuto\SammysAuto\obj\Debug\netcoreapp2.0\SammysAuto.csproj.CoreCompileInputs.cache
+C:\Users\ere0101\Documents\ASP.NET\SammysAuto\SammysAuto\SammysAuto\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\ere0101\Documents\ASP.NET\SammysAuto\SammysAuto\SammysAuto\obj\Debug\netcoreapp2.0\SammysAuto.AssemblyInfoInputs.cache
+C:\Users\ere0101\Documents\ASP.NET\SammysAuto\SammysAuto\SammysAuto\obj\Debug\netcoreapp2.0\SammysAuto.AssemblyInfo.cs
+C:\Users\ere0101\Documents\ASP.NET\SammysAuto\SammysAuto\SammysAuto\obj\Debug\netcoreapp2.0\SammysAuto.dll
+C:\Users\ere0101\Documents\ASP.NET\SammysAuto\SammysAuto\SammysAuto\obj\Debug\netcoreapp2.0\SammysAuto.pdb
