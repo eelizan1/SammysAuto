@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using SammysAuto.Data;
+using SammysAuto.Models;
 
 namespace SammysAuto.Controllers
 {
@@ -18,10 +19,36 @@ namespace SammysAuto.Controllers
             this._db = db; 
         }
 
+        // GET: ServiceTypes
         public IActionResult Index()
         {
             // show the list of all the service types in db
             return View(_db.ServiceTypes.ToList());
+        }
+
+        // GET: ServiceTypes/Create
+        // show the Create view 
+        public IActionResult Creates()
+        {
+            return View(); 
+        }
+
+        // POST: Services/Create
+        // Creates the actual service type; used in the Create view 
+        public async Task<IActionResult> Create(ServiceType serviceType)
+        {
+            Console.Write("hit");
+            // if any of the data you submitted('formData') does not fit the type of properties or their annotations of the given model type
+            // in this case, if the Name is null the modelstate will not be valid
+            if (ModelState.IsValid)
+            {
+                _db.Add(serviceType);
+                await _db.SaveChangesAsync();
+                return RedirectToAction(nameof(Index)); 
+            }
+            // if modelstate is not valid return back to the view with origianl service type
+            // and will also display error message
+            return View(serviceType); 
         }
 
         // 3. dispose _db 
