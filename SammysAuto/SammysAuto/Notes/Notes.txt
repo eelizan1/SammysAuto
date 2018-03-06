@@ -22,3 +22,10 @@ If you make changed to the model, you need to add it to the migration
 		add-migration updateFieldsInserviceType
 
 Partial views need a model with properties that the partial view uses
+
+Tag Helpers:
+
+		form asp-action="Create"
+		asp-validation-summary="ModelOnly"
+		asp-for="Name"
+		asp-validation-for="Name"

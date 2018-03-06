@@ -28,13 +28,16 @@ namespace SammysAuto.Controllers
 
         // GET: ServiceTypes/Create
         // show the Create view 
-        public IActionResult Creates()
+        [HttpGet]
+        public IActionResult Create()
         {
             return View(); 
         }
 
         // POST: Services/Create
         // Creates the actual service type; used in the Create view 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(ServiceType serviceType)
         {
             Console.Write("hit");
